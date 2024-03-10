@@ -12,8 +12,9 @@ for (let i = 1; i <= 10; i++) {
 
 
 const array = [ '1', '2', '3', '4', '5',]
-while (array < 5) {
-    array += 1;
-console.log(array)
+let i = 0;
+while (array.length > i) {
+console.log(array[i])
+ array++
 }
 
